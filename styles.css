@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+    padding: 1rem 1.5rem;
+    background-color: lightskyblue;
+}
+
+.nav{
+    margin-top: 1rem;
+}
+
+.nav ul{
+    list-style-type: none;
+    background-color: rgb(90, 65, 65);
+    padding: 1rem 1.5rem;
+    border-radius: 20px;
+}
+
+.nav li{
+    display: inline-block;
+    margin-right: 3rem;
+}
+
+.nav li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 2.3vw;
+    color: black;
+}
+
+.text{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.round{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.round .circle{
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.circular--portrait{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.circular--portrait img{
+    width: 100%;
+    height: auto;
+}
+
+.pitch{
+    margin-top: 1rem;
+    text-transform: capitalize;
+}
+
+.pitch h2{
+    margin-bottom: 1rem;
+}
+
+.nav2{
+    margin-top: 1rem;
+}
+
+.love{
+    color: brown;
+}
+
+.love2{
+    background-color: rgb(189, 135, 135);
+    padding: 1rem 1rem;
+}
+
+.secrets{
+    color: crimson;
+}
+
+.secrets2{
+    background-color: rgb(177, 102, 116);
+    padding: 1rem 1rem;
+}
+
+.form{
+    margin-top: 1rem;
+}
+
+.comment{
+    width: 40%;
+    height: 100px;
+}
+
+.nav2 ul{
+    list-style-type: none;
+    background-color: black;
+    padding: 0rem 0.5rem;
+    border-radius: 20px;
+}
+
+.nav2 li{
+    display: inline-block;
+    margin-right: 3rem;
+}
+
+.nav2 li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.0vw;
+    color: red;
+}
+
+#fb{
+    background-color: blue;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
+
+#fb a{
+    color: white;
+}
+
+#tw{
+    background-color: #1da1f2;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
+
+#tw a{
+    color: white;
+}
+
+#in{
+    background-color: #125688;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+}
+
+#in a{
+    color: white;
+}
+
+.but:hover{
+    background-color: #1da1f2;
+}
+
+.but{
+    color: red;
+    text-transform: capitalize;
+    margin-top: 1rem;
+    background-color: black;
+    border-radius: 8px;
+}
